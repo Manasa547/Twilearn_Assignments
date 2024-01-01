@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+    
+}
+
+nav {
+    line-height: 70px;
+    padding: 0px 100px;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    height: 100vh;
+    /* background-image: url("/Assignment3/backdrop1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.link-container{
+    background-image: url("/Assignment3/backdrop1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+nav .heading p{
+    
+    font-size: 22px;
+    margin-left: 70px;
+    float: left;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 15px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: lightcoral;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+
+.container{
+    
+    text-align: left;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color:bisque;
+}
+
+.heading1{
+    position: absolute;
+    padding-left: 80px;
+    color: bisque;
+    font-weight: 500px;
+    
+   
+}
+.Home{
+    position: absolute;
+    font-size: 40px;
+    padding-left: 80px;
+
+}
+
+button{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 80px;
+    background-color:rgb(11, 184, 117);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 40px;
+    
+}
+
+
+.down-box{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 3px;
+    margin-left:480px;
+    margin-top: 60px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(2, 158, 98);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 138, 85);
+    position: relative;
+   
+   }
+   
+   img{
+     max-width: 70%;
+     max-height:30%;
+     padding: 13px;
+
+     
+   }
+   
+   .text {
+     font-size: 16px;
+     padding-left: 0px;
+     
+   }
+
+
+   /* About page stylings */
+
+.link-container1{
+    background-color: lightblue;
+}
+
+.main{
+        padding: auto;
+    }
+    
+
+
+.about{
+    display: flex;
+}
+
+
+h2{
+    color: rgb(180, 28, 53);
+    padding-top: 30px;
+    margin-top: 40px;
+    
+}
+.head{
+    position: absolute;
+    padding-left: 30px;
+    color: bisque;
+    font-weight: 500px;
+
+}
+.Description{
+  
+    padding-left: 30px;
+    padding-top: 60px;
+    color: rgb(180, 28, 53);
+    font-size: 12px;
+    margin-top: 60px;
+    position: absolute;
+    
+    
+
+}
+section{
+    flex:1;
+    padding: 20px;
+    
+}
+
+.btn-style{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    background-color:rgb(9, 175, 111);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 9px;
+    font-size: 16px;
+    font-weight: 40px;
+    cursor: pointer;
+
+}
+
+
+aside {
+    float: right;
+    flex: 1;
+    padding: 70px;
+    padding-right: 30px;
+  }
+.container2{
+    display: flex;
+}
+.col1 img {
+    flex: 1;
+    width: 1000px;
+    height: 700px;
+
+}
+
+.col2 img {
+    flex: 2;
+    width: 1000px;
+    height: 700px; 
+ }
+
+/* //footer page */
+
+.footer{
+    background-color: #5f80a7;
+    height: 60vh;
+    padding-top: 5px;
+    
+    
+}
+
+section{
+    padding: 80px 13% 70px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30px, auto));
+    gap: 3.5rem;
+    background: #1a242f;
+    
+    
+}
+
+.footer-content h5{
+     color: #fff;
+     margin-bottom: 1.3rem;
+     font-size: 20px;
+     margin-top: 3px;
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+}
+
+.footer-content a{
+   display: block;
+   color: #d6d6d6;
+   font-size: 14px;
+   font-weight: 400;
+transition: all .40s ease;
+}
+
+.footer-content li a:hover{
+    transform: translateY(-5px) translateX(-5px);
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer-content p{
+    color: #d6d6d6;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 17px 0;
+    margin-top: 5px;
+}
+.icons-style{
+    display: inline-flex;
+    
+    font-size: 24px;
+    color: #d6d6d6;
+    margin-right: 18px;
+    padding: 20px;
+    transition: all .40s ease;
+
+}
+
+.icons-style a:hover{
+    color:#fff;
+    transform: translateY(-5px);
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Display Page */
+
+.link-container2{
+    background-color: lightcoral;
+}
+ 
+ .heading2{
+     margin-left: 310px;
+     margin-top: 40px;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(3, 54, 20, 0.637);
+    font-weight: 600;
+}
+
+.images{
+    position: fixed;
+}
+.images{
+    display: flex;
+    padding-left: 120px;
+    padding-right: 90px;
+}
+
+
+.img1{
+    margin-top: 30px;
+    width: 150px;
+    height: 200px;
+}
+.image-text{
+    
+    top: 25%;
+    color: antiquewhite;
+    position: relative;
+    padding: 50px
+    
+}
+.image-text h4{
+   font-weight: bold;
+
+}
+
+p{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.img2{
+    margin-top: 20px;
+    width: 170px;
+    height: 230px;
+}
+
+.img3{
+    margin-top: 30px;
+    width: 150px;
+    height: 200px;
+} 
+
+
+ 
+.img-text {
+    position: absolute;
+    bottom: 19px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: bisque;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img-text1 {
+    position: absolute;
+    bottom: 37px;
+    left: 30px;
+    transform: translateX(-30%);
+    color: bisque;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 220px;
+}
+
+.img-text2 {
+    position: absolute;
+    bottom: 37px;
+    right: 10px;
+    transform: translateX(30%);
+    color: bisque;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 190px;
+}
+
+/* // places page */
+
+
+
+
+
